@@ -1,0 +1,12 @@
+{application, jorel_hello_provider,
+ [{description, "Sample provider for Jorel"}
+  ,{vsn, "0.0.1"}
+  ,{registered, []}
+  ,{applications, [kernel, stdlib]}
+  ,{env,[]}
+  ,{modules, []}
+
+  ,{maintainers, ["Gregoire Lejeune"]}
+  ,{licenses, ["BSD-3"]}
+  ,{links, [{"Github", "https://github.com/emedia-project/jorel_hello_provider"}]}
+ ]}.
